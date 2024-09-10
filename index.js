@@ -45,7 +45,7 @@ const pool = new Pool({
     res.json({ Resultado: 'Bienvenido al Taller Despliegue Rest - Railway' })
   });
 
-  app.get('/usuarios', getUsuario)
+  app.get('/usuarios ', getUsuario)
   app.post('/usuarios', crearUsuario)
   
 const port = process.env.PORT || 1337;
